@@ -1,0 +1,27 @@
+# Course references, exports, and the planning document
+/sources/
+*.html
+/final_project_blueprint.txt
+
+# Data are obtained separately from OMIX003867
+/data/
+/Scanpy_Visium/
+/singlecell_h5ad/
+*.h5ad
+*.h5
+*.hdf5
+*.zip
+
+# Python and Jupyter
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.jupyter/
+.env
+.env.*
+
+# Operating system files
+.DS_Store
+Thumbs.db
